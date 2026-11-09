@@ -1,0 +1,34 @@
+MEU GESTOR DE NEGÓCIOS — VERSÃO 8.2.2
+PACOTE PARA GITHUB PAGES
+
+CONTEÚDO
+- index.html: aplicação principal.
+- manifest.webmanifest: configura a instalação como aplicação (PWA).
+- sw.js: guarda os ficheiros essenciais em cache para utilização offline.
+- icon.svg: ícone da aplicação.
+- LEIA-ME.txt: estas instruções.
+
+PUBLICAR PELO TELEMÓVEL ANDROID
+1. Abra o repositório GitHub onde pretende publicar a aplicação.
+2. Entre na página principal do repositório e escolha Add file > Upload files.
+3. Carregue os CINCO ficheiros desta pasta para a raiz do repositório.
+   Importante: index.html deve ficar directamente na raiz, não dentro de outra pasta.
+4. Escreva uma mensagem, por exemplo: Publicar Meu Gestor V8.2.2.
+5. Prima Commit changes.
+6. No repositório, abra Settings > Pages.
+7. Em Build and deployment, seleccione Deploy from a branch.
+8. Escolha a branch main e a pasta /(root); depois prima Save.
+9. Aguarde a publicação e abra o endereço apresentado na secção GitHub Pages.
+
+INSTALAÇÃO NO ANDROID
+1. Abra o endereço publicado no Chrome.
+2. No menu do Chrome, escolha Instalar aplicação ou Adicionar ao ecrã inicial.
+3. Depois da primeira abertura com internet, teste a aplicação em modo avião.
+
+NOTAS IMPORTANTES
+- O funcionamento offline depende de a aplicação ter sido aberta pelo menos uma vez com internet e de o service worker ter terminado a instalação.
+- O GitHub Pages funciona por HTTPS, requisito para o service worker.
+- Os dados comerciais são guardados localmente no navegador/dispositivo. Faça cópias de segurança regularmente nas opções da aplicação.
+- Dados guardados na versão Web e dados de um APK não são automaticamente sincronizados entre si.
+- Para actualizar a aplicação, carregue os ficheiros novos para a mesma raiz do repositório. Se o navegador mantiver uma versão antiga, feche e volte a abrir a aplicação ou limpe a cache do site.
+- Este pacote é uma aplicação Web instalável (PWA); não é um ficheiro APK.
